@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_8314cafed09246d1ac9a24c9b39993be {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_8314cafed09246d1ac9a24c9b39993be" ></div>
+        
+</body>
+<script>    
+    
+            var map_8314cafed09246d1ac9a24c9b39993be = L.map(
+                "map_8314cafed09246d1ac9a24c9b39993be",
+                {
+                    center: [36.62944750812678, 127.88883613608986],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 8,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_60aac1cb8e094800899a389abb6d341f = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_8314cafed09246d1ac9a24c9b39993be);
+        
+    
+            var marker_758616a0748041cab0f9f5c82dfcf89d = L.marker(
+                [37.55997841731841, 126.97529766418414],
+                {}
+            ).addTo(map_8314cafed09246d1ac9a24c9b39993be);
+        
+    
+        var popup_9c2a7743d35744119376a79d0ace134b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8f606053b24a4d998e98fd30cba14a81 = $(`<div id="html_8f606053b24a4d998e98fd30cba14a81" style="width: 100.0%; height: 100.0%;">         <h1 style="text-align:center; color: #e55934">SEOUL</h1>         <p style="text-align:center; font-size:27px; color:#f9a03f" >         Enjoy the beautiful Korea through Youtube!!         </p>         <iframe width="560" height="315" src="https://www.youtube.com/embed/3P1CnWI62Ik" frameborder="0" allow="accelerometer;          autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>         </div>`)[0];
+            popup_9c2a7743d35744119376a79d0ace134b.setContent(html_8f606053b24a4d998e98fd30cba14a81);
+        
+
+        marker_758616a0748041cab0f9f5c82dfcf89d.bindPopup(popup_9c2a7743d35744119376a79d0ace134b)
+        ;
+
+        
+    
+    
+            marker_758616a0748041cab0f9f5c82dfcf89d.bindTooltip(
+                `<div>
+                     <h4>Introducing the beautiful city of <b>SEOUL</b></h4>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7503509587034b6f9d793c2b2c48a008 = L.marker(
+                [35.14854620239508, 129.12981211447476],
+                {}
+            ).addTo(map_8314cafed09246d1ac9a24c9b39993be);
+        
+    
+        var popup_abab6462beef478e8ac9c9d22f23c4da = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a2de78a355b948918ea9c7031d4506ab = $(`<div id="html_a2de78a355b948918ea9c7031d4506ab" style="width: 100.0%; height: 100.0%;">         <h1 style="text-align:center; color: #e55934">BUSAN</h1>         <p style="text-align:center; font-size:27px; color:#f9a03f" >         Enjoy the beautiful Korea through Youtube!!         </p>         <iframe width="560" height="315" src="https://www.youtube.com/embed/xLD8oWRmlAE" frameborder="0" allow="accelerometer;          autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>         </div>`)[0];
+            popup_abab6462beef478e8ac9c9d22f23c4da.setContent(html_a2de78a355b948918ea9c7031d4506ab);
+        
+
+        marker_7503509587034b6f9d793c2b2c48a008.bindPopup(popup_abab6462beef478e8ac9c9d22f23c4da)
+        ;
+
+        
+    
+    
+            marker_7503509587034b6f9d793c2b2c48a008.bindTooltip(
+                `<div>
+                     <h4>Introducing the beautiful city of <b>BUSAN</b></h4>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2df96f869e534ec580ebfb87b08ab533 = L.marker(
+                [35.81545662436752, 127.15346127143155],
+                {}
+            ).addTo(map_8314cafed09246d1ac9a24c9b39993be);
+        
+    
+        var popup_0b67a880ea8742868e85b950c4bd580c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b36435495fd1404dbdb8b3945aa1a91a = $(`<div id="html_b36435495fd1404dbdb8b3945aa1a91a" style="width: 100.0%; height: 100.0%;">         <h1 style="text-align:center; color: #e55934">JEONJU</h1>         <p style="text-align:center; font-size:27px; color:#f9a03f" >         Enjoy the beautiful Korea through Youtube!!         </p>         <iframe width="560" height="315" src="https://www.youtube.com/embed/dQ_lCmB2hfk" frameborder="0" allow="accelerometer;          autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>         </div>`)[0];
+            popup_0b67a880ea8742868e85b950c4bd580c.setContent(html_b36435495fd1404dbdb8b3945aa1a91a);
+        
+
+        marker_2df96f869e534ec580ebfb87b08ab533.bindPopup(popup_0b67a880ea8742868e85b950c4bd580c)
+        ;
+
+        
+    
+    
+            marker_2df96f869e534ec580ebfb87b08ab533.bindTooltip(
+                `<div>
+                     <h4>Introducing the beautiful city of <b>JEONJU</b></h4>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3973c80586054b9998c073b3c001300f = L.marker(
+                [36.53914372213846, 128.51817368516137],
+                {}
+            ).addTo(map_8314cafed09246d1ac9a24c9b39993be);
+        
+    
+        var popup_9d3410afb3b64bf7b28e647ec338e9a8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7f8eee779a574c70b5a6ab57afe6103f = $(`<div id="html_7f8eee779a574c70b5a6ab57afe6103f" style="width: 100.0%; height: 100.0%;">         <h1 style="text-align:center; color: #e55934">ANDONG</h1>         <p style="text-align:center; font-size:27px; color:#f9a03f" >         Enjoy the beautiful Korea through Youtube!!         </p>         <iframe width="560" height="315" src="https://www.youtube.com/embed/R2GeUF_xm1Y" frameborder="0" allow="accelerometer;          autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>         </div>`)[0];
+            popup_9d3410afb3b64bf7b28e647ec338e9a8.setContent(html_7f8eee779a574c70b5a6ab57afe6103f);
+        
+
+        marker_3973c80586054b9998c073b3c001300f.bindPopup(popup_9d3410afb3b64bf7b28e647ec338e9a8)
+        ;
+
+        
+    
+    
+            marker_3973c80586054b9998c073b3c001300f.bindTooltip(
+                `<div>
+                     <h4>Introducing the beautiful city of <b>ANDONG</b></h4>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_06e5c228f7c943e19bd0295030ac1a3a = L.marker(
+                [34.781394296973474, 126.38328745213919],
+                {}
+            ).addTo(map_8314cafed09246d1ac9a24c9b39993be);
+        
+    
+        var popup_2cc01dc444b64ec9aba1e25e48b1d8d4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_72c8de7177aa46268b362e7463e9a50c = $(`<div id="html_72c8de7177aa46268b362e7463e9a50c" style="width: 100.0%; height: 100.0%;">         <h1 style="text-align:center; color: #e55934">MOKPO</h1>         <p style="text-align:center; font-size:27px; color:#f9a03f" >         Enjoy the beautiful Korea through Youtube!!         </p>         <iframe width="560" height="315" src="https://www.youtube.com/embed/CitIMlaa8To" frameborder="0" allow="accelerometer;          autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>         </div>`)[0];
+            popup_2cc01dc444b64ec9aba1e25e48b1d8d4.setContent(html_72c8de7177aa46268b362e7463e9a50c);
+        
+
+        marker_06e5c228f7c943e19bd0295030ac1a3a.bindPopup(popup_2cc01dc444b64ec9aba1e25e48b1d8d4)
+        ;
+
+        
+    
+    
+            marker_06e5c228f7c943e19bd0295030ac1a3a.bindTooltip(
+                `<div>
+                     <h4>Introducing the beautiful city of <b>MOKPO</b></h4>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_32df91e6efea47e1a44e7a35571f4597 = L.marker(
+                [37.691611597754395, 129.032888716986],
+                {}
+            ).addTo(map_8314cafed09246d1ac9a24c9b39993be);
+        
+    
+        var popup_e1a427bf08134f48b646557b0ab49383 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d3ca4c7a9caa4025a7ee77c4af823042 = $(`<div id="html_d3ca4c7a9caa4025a7ee77c4af823042" style="width: 100.0%; height: 100.0%;">         <h1 style="text-align:center; color: #e55934">GANGNEUNG</h1>         <p style="text-align:center; font-size:27px; color:#f9a03f" >         Enjoy the beautiful Korea through Youtube!!         </p>         <iframe width="560" height="315" src="https://www.youtube.com/embed/RdzvyvGcOYQ" frameborder="0" allow="accelerometer;          autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>         </div>`)[0];
+            popup_e1a427bf08134f48b646557b0ab49383.setContent(html_d3ca4c7a9caa4025a7ee77c4af823042);
+        
+
+        marker_32df91e6efea47e1a44e7a35571f4597.bindPopup(popup_e1a427bf08134f48b646557b0ab49383)
+        ;
+
+        
+    
+    
+            marker_32df91e6efea47e1a44e7a35571f4597.bindTooltip(
+                `<div>
+                     <h4>Introducing the beautiful city of <b>GANGNEUNG</b></h4>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
